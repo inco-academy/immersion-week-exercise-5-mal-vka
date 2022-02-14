@@ -6,8 +6,8 @@ const displaySongInfo = (header) => {
     const message = (header === "Then") ?
         "The Beatles (January 13, 1969)" : "Carly Rae Jepsen (March 1, 2012)";
     alert(message);
-}
+};
 
 headers.forEach(header => {
     header.addEventListener("click", () => displaySongInfo());
-})
+});
